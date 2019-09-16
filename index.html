@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- obligatoire pour préciser le jeu de caractère-->
+    <meta charset="UTF-8">
+    <!-- obligatoire pour que la page soit responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Edge, va bientôt mourir -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- très important pour le référencemenet -->
+    <title></title>
+
+</head>
+<body>
+<header>
+    <h1> Mon Projet ONEPAGE </h1>
+</header>
+<main> 
+    <section> 
+        <h3> FORMULAIRE DE NEWSLETTER </h3>
+<form method="GET" action="url-traitement.php"> 
+
+    <!-- formulaire newsletter -->
+    <!-- nom et email du visiteur -->
+    <!-- relie l'input grâce à l'id-->
+    <label for="nom"> NOM </label>
+        <input type="text" placeholder="Entrez votre nom" name="nom" required id="nom">
+    
+        <label for="email"> EMAIL </label>
+        <input type="email" placeholder="Entrez votre email" name="email" required id="email">
+        <button type="submit"> INSCRIPTION A LA NEWSLETTER </button>
+    
+</form>
+</section>
+
+<section>
+
+    <h3> GALERIE </h3>
+<div class="container">
+    <img src="images/Amavi.jpg" alt="Amavi">
+    <img src="images/Mandanda.jpg" alt="Mandanda">
+    <img src="images/Payet.jpg" alt="Payet">
+    <img src="images/Kamara.jpg" alt="Kamara">
+    <img src="images/Gustavo.jpg" alt="Gustavo">
+    <img src="images/Sakai.jpg" alt="Sakai">
+    <img src="images/Benedetto.jpg" alt="Benedetto">
+    <img src="images/Mandanda_Niang.jpg" alt="Mandanda et Niang">
+
+</div>
+    <div class="grande-image"> <img src="images/Mandanda_Niang.jpg" alt="Mandanda et Niang"> </div>
+    
+
+</section>
+
+
+<section>
+
+    <h3> FORMULAIRE DE CONTACT </h3>
+    <form>
+    <label for="contact-nom"> NOM </label>
+        <input type="text" placeholder="Entrez votre nom" name="nom" required id="contact-nom">
+    
+        <label for="contact-email"> EMAIL </label>
+        <input type="email" placeholder="Entrez votre email" name="email" required id="contact-email">
+        <textarea name="contact-message" id="contact-message" placeholder="Entrez votre message" cols="80" rows="6" required> </textarea>
+        <button type="submit"> ENVOYER LE MESSAGE </button>
+    </form>
+
+</section>
+
+
+</main>
+    
+
+    <footer> 
+
+        <p> tous droits réservés - &copy;2019 </p>
+
+    </footer>
+<script src="script.js"> </script>
+</body>
+</html>
